@@ -1,0 +1,23 @@
+#Sol1-Papadimitriou's Algorithm with input clause reduction.
+https://www.coursera.org/learn/algorithms-npcomplete/discussions/weeks/4/threads/Cl-n9enMEeavDRL9DbMJZA
+
+Stanislav Tsybenko
+4 years ago
+
+We can effectivly reduce number of clauses in each task. If any variable has only one representation (negated or not) in all clauses, than we can remove all this clauses from the task. Because we can easely make all such clause to be valid, by setting this variable to true or false.
+
+Number of clauses after reduction: 
+
+2sat1.txt - 6 
+
+2sat2.txt - 57 
+
+2sat3.txt - 295 
+
+2sat4.txt - 11 
+
+2sat5.txt - 101 
+
+2sat6.txt - 26
+
+#Sol2-SCC
