@@ -1,8 +1,8 @@
 #declare variable
 EXE := main
-OBJS := solution.o main.o
+OBJS := Linked_List.o AdjList.o solution.o main.o
 OBJS_DIR := .objs
-INC_DIR := ./include 
+INC_DIR := ./include ../../../Linked_List/include/ ../../../Adjacent_List/include
 
 CC = g++
 INCLUDE_FLAGS = $(foreach d, $(INC_DIR), -I $d)
